@@ -1,9 +1,9 @@
 def sum_csv():
     list=[]
-    my_file=open('shampoo_sales.csv','r')
+    my_file=open(shampoo_sales.csv,'r')
     def sum_list(list):
         somma=0
-        if list==[]:
+        if list==[]
             return None
         for item in list:
             somma=somma+item
