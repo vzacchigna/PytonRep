@@ -1,4 +1,4 @@
-def sum_csv(my_file):
+def sum_csv():
     list=[]
     my_file=open('shampoo_sales.csv','r')
     def sum_list(list):
@@ -16,4 +16,4 @@ def sum_csv(my_file):
         list.append(float(value))
     s=sum_list(list)
     return s
-print(sum_csv(my_file))
+print(sum_csv())
