@@ -4,7 +4,8 @@ class CSVFile:
         self.name = file_name
         self.can_read = True
     def get_data(self):
-        file_reader = open('file_vuoto.txt','r') #apro il file in modalità lettura
+        file_reader = open('','r')
+        
         if file_reader.readline():
             print("file presente")
         else:
@@ -16,5 +17,5 @@ class CSVFile:
             list.append(elements)
         
         return list
-csv_file = CSVFile('file_vuoto.txt')
+csv_file = CSVFile('')
 list = csv_file.get_data()
