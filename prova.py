@@ -1,1 +1,1 @@
-getdata()
+csv_file = CSVFile()
